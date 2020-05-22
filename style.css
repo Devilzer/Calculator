@@ -1,0 +1,86 @@
+body{
+    background:linear-gradient(to right,rgb(47, 129, 47),rgb(46, 108, 179));
+}
+#box{
+    margin: auto;
+    height: 600px;
+    width: 450px;
+    background-color:rgb(41, 35, 35);
+    border-radius: 5%;
+    overflow: hidden;
+}
+#calculator{
+    border-radius: 4%;
+    height: 580px;
+    width: 430px;
+    background-color: whitesmoke;
+    margin:auto;
+    top: 10px;
+    position: relative;
+}
+#result{
+    height: 100px;
+    width: auto;
+}
+#history{
+    height: 30px;
+    text-align: right;
+    padding-top: 10px;
+    padding-right: 10px;
+    color: rgb(104, 100, 100);
+}
+#answer{
+    height: 50px;
+    text-align: right;
+    padding-top: 10px;
+    padding-right: 10px;
+    font-size: 40px;
+    border-bottom: 2px solid black;
+}
+#buttons{
+    height: 490px;
+    margin: auto;
+    width: 420px;
+}
+.operator, .no,.empty{
+    height: 67.5px;
+    width: 67.5px;
+    margin: 15px 17.5px;
+    float: left;
+    outline: none;
+    font-size: 25px;
+    background-color:whitesmoke ;
+    border-radius: 50%;
+    border-width: 0;
+    font-weight: bold;
+    
+}
+.operator, .no
+{
+    cursor: pointer;
+}
+.operator
+{
+    color: #1f4068;
+}
+.operator:active, .no:active
+{
+    font-size: 20px;
+}
+.operator:active
+{
+    background-color: #1f406880;
+}
+.no:active
+{
+    background-color: rgba(196, 195, 195, 0.411);
+}
+#equals
+{
+    background-color: #035aa6;
+}
+#equals:active
+{
+    background-color: #024885;
+}
+
